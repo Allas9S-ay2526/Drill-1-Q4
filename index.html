@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q4Drill 1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+   <src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <h2>Electricity Consumption Classifier</h2>
+
+    <div class="container bg-secondary">
+        <form>
+           
+            <img src="logo.png" alt="Logo" class="img-fluid mb-3">
+
+            <label for="consumption">kWh:</label></label>
+            <input type="number" id="consumption" name="consumption" min="0" value="0">
+            <br>
+            <button type="button" class="btn btn-outline-danger btn-lg" onclick="classifyConsumption()">Classify</button>
+            
+        </form>
+        <p id="classificationResult"></p>
+    </div>
+</body>
+</html>
